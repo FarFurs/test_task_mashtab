@@ -38,7 +38,7 @@
     Для начала склонируйте репозиторий с программой:
 
     ```bash
-    git clone https://github.com/yourusername/price-finder.git
+    git clone https://github.com/FarFurs/test_task_mashtab.git
     cd price-finder
     ```
 
@@ -51,7 +51,7 @@
    Внесите путь к вашему файлу в программу и запустите ее. Пример вызова функции:
 
     ```python
-    find_max_price_product_from_txt('path_to_your_file.txt')
+    analize_sales_data('path_to_your_file.txt')
     ```
 
    Эта функция вернет словарь с информацией о товаре с самой высокой ценой, например:
@@ -75,7 +75,7 @@
 2. Для запуска тестов выполните команду:
 
     ```bash
-    python -m unittest test_file.py
+    python -m unittest test.py
     ```
 
 Тесты проверят, что функция правильно находит товар с максимальной ценой.
@@ -86,10 +86,11 @@
 
 ```python
 {
-    'дата': '2025-01-26',
-    'категория': 'электроника',
-    'имя товара': 'Ноутбук',
-    'цена': 70000
+    'date': '2025-01-26',
+    'time': '10:15:32',
+    'category': 'Electronics',
+    'name': 'Laptop',
+    'price': 1200.00
 }
 :
 
